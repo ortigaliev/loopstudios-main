@@ -1,14 +1,18 @@
 /* Custom Prop */
 :root{
-  
+--text_color: #fff;
 }
 
 /* GLOBAL STYLES */
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Frank+Ruhl+Libre:wght@400;500&family=Great+Vibes&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@500;700&family=Public+Sans:wght@100;500&family=Rubik:wght@400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Frank+Ruhl+Libre:wght@400;500&family=Great+Vibes&family=Josefin+Sans:wght@300&family=Nunito:wght@200;300;400;600;700&family=Poppins:wght@500;700&family=Public+Sans:wght@100;500&family=Rubik:wght@400;500&display=swap");
 
 html{
   box-sizing: border-box;
   height: 100%;
   scroll-behavior: smooth;
+  font-size: 62.5%;
 }
 
 *,
@@ -23,11 +27,8 @@ body{
   height: 100%;
   margin: 0;
   padding: 0;
-  font-size: 16px;
   line-height: 1.5;
-  font-family: "Roboto", "Arial", sans-serif;
-  background-color: var();
-  color: var();
+  color: var(--text_color);
 }
 
 img{
@@ -39,9 +40,9 @@ img{
 /* CONTAINER*/
 .container{
   width: 100%;
-  max-width: 1200px;
-  padding-left: 50px;
-  padding-right: 50px;
+  max-width: 1110px;
+  padding-left: 165px;
+  padding-right: 165px;
   margin-left: auto;
   margin-right: auto;
 }
